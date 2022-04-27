@@ -33,9 +33,14 @@ nav a {
   display: inline-block;
   padding: 0 1rem;
   border-left: 1px solid var(--color-border);
+  color: #737373;
 }
 
 nav a:first-of-type {
   border: 0;
+}
+.name {
+  font-weight: 500;
+  color: rgb(27 27 27);
 }
 </style>

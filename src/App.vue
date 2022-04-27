@@ -17,7 +17,7 @@ import TheFooter from "./components/TheFooter.vue";
   max-width: 90%;
   margin-right: auto;
   margin-left: auto;
-  background-color: #f5f0e7;
+  background-color: #fdfbf4;
 }
 
 header {

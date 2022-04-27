@@ -1,5 +1,5 @@
 @import url("https://use.typekit.net/roe8vjt.css");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap");
 /* color palette from <https://github.com/vuejs/theme> */
 :root {
   --vt-c-white: #ffffff;
@@ -15,7 +15,7 @@
 
 /* semantic color variables for this project */
 :root {
-  --color-background: #f5f0e7;
+  --color-background: #fdfbf4;
   --color-background-soft: var(--vt-c-white-soft);
   --color-background-mute: var(--vt-c-white-mute);
 
@@ -38,7 +38,7 @@
 
 body {
   min-height: 100vh;
-  max-width: 90%;
+  max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
   color: var(--color-text);
@@ -66,16 +66,16 @@ body {
 .violet {
   color: #9a51e1;
 }
-@media (min-width: 860px) {
+@media (max-width: 860px) {
   body {
-    max-width: 100%;
+    max-width: 90%;
     width: 100%;
     position: ;
   }
 }
 @media (max-width: 500px) {
   body {
-    max-width: 100% !important;
+    max-width: 800px !important;
     padding-right: 25px !important;
     padding-left: 25px !important;
   }

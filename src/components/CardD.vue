@@ -1,3 +1,6 @@
+<script setup>
+import TagComp from "@/components/TagComp.vue";
+</script>
 <template>
   <div class="card-org">
     <RouterLink to="/medicatice">
@@ -7,7 +10,7 @@
             Comment rendre les notices de médicaments plus accessibles ?
             <span class="orange">✷</span>
           </h1>
-          <p class="first-paragraph">→ 2022 ☼ Product Design</p>
+          <TagComp></TagComp>
         </div>
       </div>
     </RouterLink>
@@ -18,19 +21,18 @@
             Comment faciliter l'’achat dans des distributeurs automatiques de
             nourriture ? <span class="orange">✷</span>
           </h1>
-          <p class="second-paragraph">→ 2022 ☼ Product Design</p>
+          <TagComp></TagComp>
         </div>
       </div>
     </RouterLink>
     <RouterLink to="/">
       <div class="card third">
         <div class="card-style cursor">
-          <p class="third-paragraph">🔐 Bientôt disponible</p>
           <h1>
             Repenser l'expérience de la recherche colocative
             <span class="orange">✷</span>
           </h1>
-          <p class="third-paragraph">→ 2022 ☼ Product Design</p>
+          <TagComp></TagComp>
         </div>
       </div>
     </RouterLink>
@@ -57,7 +59,7 @@
   -webkit-box-direction: normal;
   flex-direction: column;
   -webkit-box-pack: center;
-  justify-content: center;
+  justify-content: space-between;
   -webkit-box-align: stretch;
   align-items: stretch;
   opacity: 1;
@@ -72,13 +74,12 @@
   transition: 0.2s;
 }
 .first {
-  border: 3px solid #aed9f5;
-  background-color: #d9edf8;
+  background-color: #232323;
 }
 .first h1 {
-  color: #2d89bc;
+  color: #ffffff;
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 37px;
   padding-right: 0;
   padding-left: 0;
   font-family: new-spirit, sans-serif;
@@ -88,29 +89,27 @@
   text-decoration: none;
 }
 .second {
-  background-color: #fff0cd;
-  border: 3px solid #ffe197;
+  background-color: #232323;
 }
 .second h1 {
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 37px;
   padding-right: 0;
   padding-left: 0;
   font-family: new-spirit, sans-serif;
-  color: #bc9d2d;
+  color: #ffffff;
   font-size: 26px;
   line-height: 47px;
   font-weight: 500;
   text-decoration: none;
 }
 .third {
-  border: 3px solid #81da97;
-  background-color: #d8f0de;
+  background-color: #232323;
 }
 .third h1 {
-  color: #1b8150;
+  color: #ffffff;
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 37px;
   padding-right: 0;
   padding-left: 0;
   font-family: new-spirit, sans-serif;

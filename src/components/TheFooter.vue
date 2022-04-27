@@ -68,7 +68,7 @@
   padding-left: 0;
   opacity: 1;
   font-family: "Roboto Mono", sans-serif;
-  color: #333;
+  color: #626262;
   font-size: 15px;
   line-height: 20px;
   letter-spacing: 1px;

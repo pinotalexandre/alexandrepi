@@ -7,6 +7,9 @@
       <h3>
         <slot name="heading"></slot>
       </h3>
+      <p class="min-about">
+        <slot name="paragraph"></slot>
+      </p>
       <slot></slot>
     </div>
   </div>
@@ -29,13 +32,18 @@ h3 {
   font-size: 50px;
   line-height: 76px;
   font-weight: 500;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.min-about {
+  font-family: "Roboto Mono";
+  font-size: 20px;
 }
 
 @media (min-width: 1024px) {
   .item {
     margin-top: 0;
     display: block;
-    padding: 100px 0px 0;
   }
 
   .item:before {
