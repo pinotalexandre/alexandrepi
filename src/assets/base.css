@@ -1,0 +1,125 @@
+@import url("https://use.typekit.net/roe8vjt.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;1,200&display=swap");
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  --vt-c-white: #ffffff;
+  --vt-c-white-soft: #f8f8f8;
+  --vt-c-white-mute: #f2f2f2;
+
+  --vt-c-black: #fff;
+  --vt-c-black-soft: #222222;
+  --vt-c-black-mute: #282828;
+
+  --vt-c-indigo: #000;
+}
+
+/* semantic color variables for this project */
+:root {
+  --color-background: #f5f0e7;
+  --color-background-soft: var(--vt-c-white-soft);
+  --color-background-mute: var(--vt-c-white-mute);
+
+  --color-border: var(--vt-c-divider-light-2);
+  --color-border-hover: var(--vt-c-divider-light-1);
+
+  --color-heading: var(--vt-c-text-light-1);
+  --color-text: var(--vt-c-text-light-1);
+
+  --section-gap: 160px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  position: relative;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  max-width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif, "Roboto-Mono";
+  font-size: 15px;
+  text-rendering: optimizeSpeed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.orange {
+  color: #ff6330;
+}
+.yellow {
+  color: #fcb450;
+}
+.blue {
+  color: #2d7bf3;
+  font-weight: 500;
+}
+.violet {
+  color: #9a51e1;
+}
+@media (min-width: 860px) {
+  body {
+    max-width: 100%;
+    width: 100%;
+    position: ;
+  }
+}
+@media (max-width: 500px) {
+  body {
+    max-width: 100% !important;
+    padding-right: 25px !important;
+    padding-left: 25px !important;
+  }
+  .card-style {
+    padding: 30px !important;
+  }
+  h3 {
+    font-size: 30px !important;
+    line-height: 55px !important;
+  }
+  nav {
+    flex-direction: column;
+  }
+  nav a {
+    margin-top: 12px;
+  }
+  h2 {
+    font-size: 35px !important;
+    line-height: 60px !important;
+  }
+  .footer-links {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 0;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: stretch;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+  }
+  .footer-links a {
+    margin-top: 30px;
+  }
+  .about img {
+    max-width: 100% !important;
+  }
+  .about h1 {
+    font-size: 39px !important;
+  }
+  .case-study h1 {
+    font-size: 39px !important;
+  }
+}
